@@ -1,11 +1,15 @@
-
+import { Navbar } from "./components/Navbar"
+import { Hero } from "./components/Hero"
+import { Highlights } from "./components/Hero"
 
 const App = () => {
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Tailwind is working!
-    </h1>
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <Highlights />
+    </main>
   )
 }
 
